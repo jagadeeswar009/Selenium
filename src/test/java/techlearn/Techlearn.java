@@ -1,10 +1,10 @@
 package techlearn;
 
-import org.testng.annotations.Test;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.annotations.BeforeTest;
+import org.testng.annotations.Test;
 
 public class Techlearn {
   WebDriver driver;	
@@ -31,7 +31,7 @@ public class Techlearn {
   
   @BeforeTest
   public void beforeTest() {
-	  driver = new ChromeDriver();
+	  driver = new FirefoxDriver();
 	  driver.manage().window().maximize();
   }
 

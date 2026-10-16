@@ -9,8 +9,8 @@ import org.testng.annotations.Test;
 public class SecondProgram {
 	WebDriver driver;
   @Test
-  public void techlearn() {
-	  driver.get("https://www.techlearn.in/demo");
+  public void google() {
+	  driver.get("https://www.google.com");
   }
   @BeforeTest
   public void beforeTest() {
@@ -20,7 +20,7 @@ public class SecondProgram {
 
   @AfterTest
   public void afterTest() {
-	  driver.close();  // This line added by Bharath
+	  driver.close(); 
   }
 
 }

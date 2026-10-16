@@ -10,7 +10,7 @@ public class SecondProgram {
 	WebDriver driver;
   @Test
   public void techlearn() {
-	  driver.get("https://www.techlearn.in");
+	  driver.get("https://www.techlearn.in/demo");
   }
   @BeforeTest
   public void beforeTest() {
@@ -20,7 +20,7 @@ public class SecondProgram {
 
   @AfterTest
   public void afterTest() {
-	  driver.quit();  // This line added by Medha
+	  driver.close();  // This line added by Bharath
   }
 
 }

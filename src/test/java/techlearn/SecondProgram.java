@@ -20,6 +20,7 @@ public class SecondProgram {
 
   @AfterTest
   public void afterTest() {
+	  driver.quit();  // This line added by Medha
   }
 
 }
